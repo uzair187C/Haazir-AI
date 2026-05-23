@@ -1,0 +1,15 @@
+# ===========================
+# SECRETS — Never upload these
+# ===========================
+.env
+*.env
+.env.local
+.env.production
+
+# Node modules — Huge folder, never upload (restore with: npm install)
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/

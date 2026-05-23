@@ -1,0 +1,24 @@
+# Root-level gitignore for Haazir AI monorepo
+
+# All secrets anywhere in the project
+**/.env
+**/*.env
+**/google-services.json
+**/GoogleService-Info.plist
+
+# All node_modules anywhere
+**/node_modules/
+
+# Expo & build artifacts
+**/.expo/
+**/dist/
+**/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Batch scripts (contain env vars inline)
+1_DEPLOY_BACKEND.bat
+2_BUILD_APP.bat
